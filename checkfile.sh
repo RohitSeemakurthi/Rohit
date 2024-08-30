@@ -2,6 +2,6 @@
 
 #!/bin/bash
 
-abcd=”Hello”
-echo ‘$abcd’ # Output: $abcd
-echo “$abcd” # Output: Hello
+echo “Script name: $0”
+echo “First argument: $1”
+echo “Second argument: $2”
