@@ -2,6 +2,10 @@
 
 #!/bin/bash
 
-echo “Script name: $0”
-echo “First argument: $1”
-echo “Second argument: $2”
+fruits=(“apple” “banana” “cherry” “date”)
+for fruit in “${fruits[@]}”; do
+echo “Current fruit: $fruit”
+echo "${fruits[1]}"
+echo "${fruits[2]}"
+echo "${fruits[3]}"
+done
