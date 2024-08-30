@@ -2,10 +2,10 @@
 
 #!/bin/bash
 
-fruits=(“apple” “banana” “cherry” “date”)
-for fruit in “${fruits[@]}”; do
-echo “Current fruit: $fruit”
-echo "${fruits[1]}"
-echo "${fruits[2]}"
-echo "${fruits[3]}"
+echo “Enter a number (N):”
+read N
+sum=0
+for (( i=1; i<=$N; i++ )); do
+sum=$((sum + i))
 done
+echo “Sum of integers from 1 to $N is: $sum”
