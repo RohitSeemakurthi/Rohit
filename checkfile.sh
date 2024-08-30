@@ -1,7 +1,7 @@
 
 
 #!/bin/bash
-file=”datainput.sh”
+file=”newfile.txt”
 # Check if the file exists
 if [ -e “$file” ]; then
 echo “File exists: $file”
